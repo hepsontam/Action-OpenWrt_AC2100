@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 注释掉原luci
-sed -i 'src-git luci/i\#src-git luci' feeds.conf.default
+sed -i 'src-git luci/i\#' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default

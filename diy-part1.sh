@@ -12,12 +12,14 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-# sed '2s/src/#src/g'
+
 # 注释掉原luci
+sed -i 'src-git luci/i\#src-git luci' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 #Mi AC2100使用
+sed -i '$a src-git luci https://github.com/openwrt/luci;openwrt-18.06' feeds.conf.default
 sed -i '$a src-git small https://github.com/hepsontam/small' feeds.conf.default
 sed -i '$a src-git openwrtpackages https://github.com/garypang13/openwrt-packages' feeds.conf.default

@@ -22,7 +22,7 @@
 #Mi AC2100使用
 echo 'src-git packages https://github.com/coolsnowwolf/packages' > feeds.conf.default
 echo 'src-git luci https://github.com/openwrt/luci;openwrt-18.06' >> feeds.conf.default
-echo 'src-git routing https://git.openwrt.org/feed/routing.git >> feeds.conf.default
-echo 'src-git telephony https://git.openwrt.org/feed/telephony.git >> feeds.conf.default
+echo 'src-git routing https://git.openwrt.org/feed/routing.git' >> feeds.conf.default
+echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >> feeds.conf.default
 echo 'src-git small https://github.com/hepsontam/small' >> feeds.conf.default
 echo 'src-git openwrtpackages https://github.com/garypang13/openwrt-packages' >> feeds.conf.default

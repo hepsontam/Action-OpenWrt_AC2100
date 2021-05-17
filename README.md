@@ -2,4 +2,4 @@
 
 It used the template of [P3TERX's](https://github.com/P3TERX/Actions-OpenWrt).
 
-There is no need to refer that.
+There is nothing to refer here.
